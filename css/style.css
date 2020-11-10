@@ -1692,7 +1692,8 @@ p {
 
 #brand-part{}
 .singel-brand {
-    opacity: 0.5;
+    /* opacity: 0.5; */
+    
 }
 
 /*===========================
@@ -3569,12 +3570,18 @@ p.form-message.error {
 
 
 
+@media (min-width: 992px){
+#products-part .col-lg-2 {
+    -ms-flex: 0 0 20%;
+    -webkit-box-flex: 0;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
 
 
 
 
-
-
+}
 
 
 
